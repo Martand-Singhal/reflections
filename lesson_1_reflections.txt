@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+well, it highlights the lines that are different in the two files. This way one can spot the exact changes that were made between the two versions and fix the bug.
+
+************************
+How Could Having Easy Access To The Entire History Of A File Make You A More Efficient Programmer In The Long Term?
+
+well, one can use ''diff'' to compare the different versions and see exactly what has changed. It is also a way of fixing bugs in the new version that were not present in the old one.
+
+************************
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros -  the difference between the versions is just right if the choice of the ''when to commit'' is right.
+You don't end up with unncessary versions with negligible difference you have the control.
+Also, make one logical change at a time, if, for examole, you fix two bugs that are logically different than make two different commits.
+
+cons- bad if forgot to save at the right time
+It requires effort.
+
+************************
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+this way one can keep track of all the interconnected changes between different files.
+Treating eaxh file separately is ok when the files are not interconnected.
+
+************************
+How can you use the commands git log and git diff to view the history of files?
+
+git log gives the summary of each commit. Each commit as a unique id and an associated message which describes the changes made in that commit. use 'q' to quit the git log.
+
+git diff is followed by two commit ids which are then compared. the added lines are shown in green and removed are shown in red. The  lines in black are unchanged.
+Note that the previous version is below the current version
+
+************************
+How might using version control make you more confident to make changes that could break something?
+
+Version control helps you safely keeo the old versions that were working fine. This way if a newer version
+has a bug then it can be compared to the previous version to uderstand what bug was introduced.
+
+************************
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
