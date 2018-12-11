@@ -11,4 +11,16 @@ it lets you test and reflect before you actually  create a commit
 
 ***********************
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-branches are useful when you want to make experimental changes. So, you can create a new branch and make all the changes in the new branch . These changes may or may not break the code. So, the master branch is always production ready , i.e., it always works and can be shared publicly. see the interview of Mike wales  in Github course on udacity.
+branches are useful when you want to make experimental changes. So, you can create a new branch and make all the changes in the new branch . These changes may or may not break the code. So, the master branch is always production quality (ready) , i.e., it always works and can be shared publicly. see the interview of Mike wales  in Github course on udacity. examples - unique feature branch, experimental branch, master branch, developmental branch etc.
+
+
+***********************
+How do the diagrams help you visualize the branch structure?
+
+
+***********************
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+***********************
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
